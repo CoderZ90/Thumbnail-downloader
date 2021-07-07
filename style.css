@@ -11,11 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #7D2AE8;
+  background: #111317;
 }
 ::selection{
   color: #fff;
-  background: #7D2AE8;
+  background: #111317;
 }
 form{
   width: 450px;
@@ -29,7 +29,7 @@ form header{
   font-size: 28px;
   font-weight: 500;
   margin-top: 10px;
-  color: #7D2AE8;
+  color: #111317;
 }
 form .url-input{
   margin: 30px 0;
@@ -64,7 +64,7 @@ form .url-input{
   bottom: 0;
   height: 2px;
   width: 100%;
-  background: #7D2AE8;
+  background: #111317;
   transform: scale(0);
   transition: transform 0.3s ease;
 }
@@ -80,7 +80,7 @@ form .preview-area{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 2px dashed #8e46ec;
+  border: 2px dashed #111317;
 }
 .preview-area.active{
   border: none;
@@ -98,11 +98,11 @@ form .preview-area{
   display: none;
 }
 .preview-area .icon{
-  color: #8e46ec;
+  color: #111317;
   font-size: 80px;
 }
 .preview-area span{
-  color: #8e46ec;
+  color: #111317;
   margin-top: 25px;
 }
 form .download-btn{
@@ -116,12 +116,13 @@ form .download-btn{
   cursor: pointer;
   margin: 30px 0 20px 0;
   border-radius: 5px;
-  background: #7D2AE8;
+  background: #111317;
   pointer-events: none;
   transition: background 0.3s ease;
 }
 .download-btn:hover{
-  background: #6616d0;
+  background: #111317;
+  opacity: none;
 }
 @media screen and (max-width: 460px){
   body{
